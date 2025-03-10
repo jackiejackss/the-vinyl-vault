@@ -1,0 +1,63 @@
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    /* Push logo and nav apart */
+    align-items: center;
+    padding: 15px;
+    background-color: #222;
+    /* Example background */
+    color: white;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    margin-right: 15px;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.main-nav a:hover {
+    color: #ffcc00;
+    /* Example highlight on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #222;
+    color: white;
+}
